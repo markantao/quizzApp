@@ -237,6 +237,8 @@ struct correctAnswer_Two: View {
             Spacer()
             
             Text("CONGRATULATIONS! YOU ANSWERED CORRECTLY!!!").bold()
+            
+            Text("Congratulations on finishing the quiz!")
                 
         
         Spacer()
@@ -265,7 +267,7 @@ struct wrongAnswer: View {
         Spacer()
         
         NavigationLink(
-            destination: QuestionThree_One(),
+            destination: QuestionTwo_One(),
             label: {
                Text("Next Question")
                 .bold()
@@ -284,6 +286,8 @@ struct wrongAnswer_Two: View {
         Spacer()
     Text("OOF! WRONG ANSWER! TRY AGAIN NEXT TIME!")
         
+    Text("Congratulations on finishing the quiz!")
+        
         Spacer()
         
         NavigationLink(
@@ -300,6 +304,25 @@ struct wrongAnswer_Two: View {
     }
 }
 
+//struct finsishQuiz: View {
+//    var body: some View {
+//        VStack{
+//            Spacer()
+//            Spacer()
+//
+//            NavigationLink(
+//                destination: QuizOne(),
+//                label: {
+//                    Text("Return Home")
+//                        .bold()
+//                        .frame(width: 280, height: 60)
+//                        .foregroundColor(Color.white)
+//                        .background(Color.red)
+//                        .cornerRadius(24)
+//                })
+//        }
+//    }
+//}
 
 
 

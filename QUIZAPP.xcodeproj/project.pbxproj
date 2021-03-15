@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		9DC760D425FFF43200A8BF00 /* QUIZAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C125FFF43100A8BF00 /* QUIZAPPApp.swift */; };
 		9DC760D525FFF43200A8BF00 /* QUIZAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C125FFF43100A8BF00 /* QUIZAPPApp.swift */; };
-		9DC760D625FFF43200A8BF00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C225FFF43100A8BF00 /* ContentView.swift */; };
-		9DC760D725FFF43200A8BF00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C225FFF43100A8BF00 /* ContentView.swift */; };
+		9DC760D625FFF43200A8BF00 /* QuizOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C225FFF43100A8BF00 /* QuizOne.swift */; };
+		9DC760D725FFF43200A8BF00 /* QuizOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC760C225FFF43100A8BF00 /* QuizOne.swift */; };
 		9DC760D825FFF43200A8BF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC760C325FFF43200A8BF00 /* Assets.xcassets */; };
 		9DC760D925FFF43200A8BF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC760C325FFF43200A8BF00 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DC760C125FFF43100A8BF00 /* QUIZAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUIZAPPApp.swift; sourceTree = "<group>"; };
-		9DC760C225FFF43100A8BF00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DC760C225FFF43100A8BF00 /* QuizOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOne.swift; sourceTree = "<group>"; };
 		9DC760C325FFF43200A8BF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC760C825FFF43200A8BF00 /* QUIZAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUIZAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC760CB25FFF43200A8BF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9DC760C125FFF43100A8BF00 /* QUIZAPPApp.swift */,
-				9DC760C225FFF43100A8BF00 /* ContentView.swift */,
+				9DC760C225FFF43100A8BF00 /* QuizOne.swift */,
 				9DC760C325FFF43200A8BF00 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC760D625FFF43200A8BF00 /* ContentView.swift in Sources */,
+				9DC760D625FFF43200A8BF00 /* QuizOne.swift in Sources */,
 				9DC760D425FFF43200A8BF00 /* QUIZAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC760D725FFF43200A8BF00 /* ContentView.swift in Sources */,
+				9DC760D725FFF43200A8BF00 /* QuizOne.swift in Sources */,
 				9DC760D525FFF43200A8BF00 /* QUIZAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

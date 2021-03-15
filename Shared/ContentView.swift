@@ -7,15 +7,30 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct QuizOne: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationLink(
+            destination: Text("Destination"),
+            label: {
+                
+                Text("Quiz One")
+                    .bold()
+                    .foregroundColor(Color.white)
+                    .frame(width: 280, height: 60)
+                    .background(Color.red)
+                    .cornerRadius(24)
+            })
+            
+
+        
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        QuizOne()
+            .preferredColorScheme(.dark)
     }
 }

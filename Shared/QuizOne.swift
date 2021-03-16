@@ -102,7 +102,7 @@ struct QuestionTwo_One: View {
             Spacer()
             
             NavigationLink(
-                destination: wrongAnswer(),
+                destination: wrongAnswer_Two(),
                 label: {
                     Text("San Fransisco")
                         .bold()
@@ -116,7 +116,7 @@ struct QuestionTwo_One: View {
             Spacer()
             
             NavigationLink(
-                destination: correctAnswer(),
+                destination: correctAnswer_Two(),
                 label: {
                     Text("Washington D.C.")
                         .bold()
@@ -130,7 +130,7 @@ struct QuestionTwo_One: View {
             Spacer()
             
             NavigationLink(
-                destination: wrongAnswer(),
+                destination: wrongAnswer_Two(),
                 label: {
                     Text("New York City")
                         .bold()
@@ -156,9 +156,9 @@ struct QuestionThree_One: View {
             .bold()
             .foregroundColor(Color.white)
             Spacer()
-            
+
             NavigationLink(
-                destination: correctAnswer_Two(),
+                destination: finsishQuiz(),
                 label: {
                     Text("Canberra")
                         .bold()
@@ -166,13 +166,13 @@ struct QuestionThree_One: View {
                         .frame(width: 280, height: 60)
                         .background(Color.red)
                         .cornerRadius(24)
-                        
+
                 })
-            
+
             Spacer()
-            
+
             NavigationLink(
-                destination: wrongAnswer_Two(),
+                destination: finsishQuiz(),
                 label: {
                     Text("Sydney")
                         .bold()
@@ -180,13 +180,13 @@ struct QuestionThree_One: View {
                         .frame(width: 280, height: 60)
                         .background(Color.blue)
                         .cornerRadius(24)
-                        
+
                 })
-            
+
             Spacer()
-            
+
             NavigationLink(
-                destination: wrongAnswer_Two(),
+                destination: finsishQuiz(),
                 label: {
                     Text("Melbourne")
                         .bold()
@@ -194,12 +194,12 @@ struct QuestionThree_One: View {
                         .frame(width: 280, height: 60)
                         .background(Color.green)
                         .cornerRadius(24)
-                        
+
                 })
-            
+
             Spacer()
 
-            
+
         }
     }
 }
@@ -233,14 +233,13 @@ struct correctAnswer: View {
 struct correctAnswer_Two: View {
     var body: some View {
         VStack{
-            
+
             Spacer()
-            
+
             Text("CONGRATULATIONS! YOU ANSWERED CORRECTLY!!!").bold()
-            
-            Text("Congratulations on finishing the quiz!")
-                
-        
+
+
+
         Spacer()
             NavigationLink(
                 destination: QuestionThree_One(),
@@ -252,7 +251,7 @@ struct correctAnswer_Two: View {
                         .background(Color.green)
                         .cornerRadius(24)
                 })
-        
+
         }
     }
 }
@@ -285,11 +284,9 @@ struct wrongAnswer_Two: View {
     VStack{
         Spacer()
     Text("OOF! WRONG ANSWER! TRY AGAIN NEXT TIME!")
-        
-    Text("Congratulations on finishing the quiz!")
-        
+
         Spacer()
-        
+
         NavigationLink(
             destination: QuestionThree_One(),
             label: {
@@ -304,25 +301,15 @@ struct wrongAnswer_Two: View {
     }
 }
 
-//struct finsishQuiz: View {
-//    var body: some View {
-//        VStack{
-//            Spacer()
-//            Spacer()
-//
-//            NavigationLink(
-//                destination: QuizOne(),
-//                label: {
-//                    Text("Return Home")
-//                        .bold()
-//                        .frame(width: 280, height: 60)
-//                        .foregroundColor(Color.white)
-//                        .background(Color.red)
-//                        .cornerRadius(24)
-//                })
-//        }
-//    }
-//}
+struct finsishQuiz: View {
+    var body: some View {
+        VStack{
+            Spacer()
+            Text("Congratulations on finishing the quiz!")
+            Spacer()
+        }
+    }
+}
 
 
 
